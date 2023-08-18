@@ -1,0 +1,44 @@
+R_DEF: Internal format may change without notice
+local
+attr? OColor
+attr? XColor
+attr? boardColor
+attr? winningLineColor
+color black
+color white
+drawable blue__button
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable red_button
+id button
+id button2
+id button3
+id button4
+id player1Name
+id player2Name
+id textView
+id textView2
+id textView3
+id textView4
+id textView5
+id ticTacToeBoard
+layout activity_main
+layout game_display
+layout player_setup
+mipmap ic_launcher
+mipmap ic_launcher_round
+string Label1
+string Label2
+string NameHint
+string PlayerSetupTitle
+string app_name
+string homeButton
+string homeTitle
+string playAgainButton
+string playButton
+string submitButton
+style Base.Theme.TicTacToe
+style Theme.TicTacToe
+styleable TicTacToeBoard boardColor XColor OColor winningLineColor
+xml backup_rules
+xml data_extraction_rules

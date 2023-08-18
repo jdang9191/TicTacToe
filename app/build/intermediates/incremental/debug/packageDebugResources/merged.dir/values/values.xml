@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="Label1">Player1</string>
+    <string name="Label2">Player2</string>
+    <string name="NameHint">Enter Your Name</string>
+    <string name="PlayerSetupTitle">Enter Your Name</string>
+    <string name="app_name">TicTacToe</string>
+    <string name="homeButton">Home</string>
+    <string name="homeTitle">Tic Tac Toe</string>
+    <string name="playAgainButton">Play Again</string>
+    <string name="playButton">Play</string>
+    <string name="submitButton">Submit Names</string>
+    <style name="Base.Theme.TicTacToe" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.TicTacToe" parent="Base.Theme.TicTacToe"/>
+    <declare-styleable name="TicTacToeBoard">
+        <attr format="color" name="boardColor"/>
+        <attr format="color" name="XColor"/>
+        <attr format="color" name="OColor"/>
+        <attr format="color" name="winningLineColor"/>
+    </declare-styleable>
+</resources>
